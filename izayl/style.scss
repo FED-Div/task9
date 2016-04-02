@@ -1,0 +1,38 @@
+@import 'reset';
+@import 'define';
+@import url('icon/iconfont.css');
+a{
+	text-decoration: none;
+	color: #6e8095;
+}
+header{
+	height: $headerH;
+	width: 100%;
+	min-width: 1280px;
+	background-color: $blue;
+}
+main{
+	width: 100%;
+	min-height: $asideH;
+	float: left;
+	background-color: $bgcMain;
+	.content{
+		margin-left: $asideW;
+		.bc-nav{
+			height: 30px;
+			background-color: #fff;
+			.block{
+				width: 890px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+aside{
+	width: $asideW;
+	min-height: $asideH;
+	margin-left: -100%;
+	float: left;
+	background-color: $bgcAside;
+}
